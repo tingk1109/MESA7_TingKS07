@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
+var str = "Hello, World"
+
+if let range = "Hello, World".range(of: "^H.*d$", options: .regularExpression){
+    let result = "Hello, World".substring(with: range)
+    print("OK: \(result)")
+}else{
+    print("XX")
+}
 
