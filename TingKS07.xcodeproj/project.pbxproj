@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE187FAE1EEF91DF005F2832 /* text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE187FAD1EEF91DF005F2832 /* text1.swift */; };
+		CE187FB01EEF96D7005F2832 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE187FAF1EEF96D7005F2832 /* test2.swift */; };
 		CE700AC41EEE7EE00062BF7D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE700AC31EEE7EE00062BF7D /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE187FAD1EEF91DF005F2832 /* text1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = text1.swift; sourceTree = "<group>"; };
+		CE187FAF1EEF96D7005F2832 /* test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
 		CE700AC01EEE7EE00062BF7D /* TingKS07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TingKS07; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE700AC31EEE7EE00062BF7D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				CE700AC31EEE7EE00062BF7D /* main.swift */,
+				CE187FAF1EEF96D7005F2832 /* test2.swift */,
+				CE187FAD1EEF91DF005F2832 /* text1.swift */,
 			);
 			path = TingKS07;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE187FAE1EEF91DF005F2832 /* text1.swift in Sources */,
+				CE187FB01EEF96D7005F2832 /* test2.swift in Sources */,
 				CE700AC41EEE7EE00062BF7D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +263,7 @@
 				CE700AC91EEE7EE00062BF7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
